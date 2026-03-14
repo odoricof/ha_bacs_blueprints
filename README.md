@@ -1,10 +1,10 @@
-# Automazioni di risparmio energetico per dispositivi CAME DOMOTIC 3.0 in Home Assistant
+# Automazioni di risparmio energetico per dispositivi CAME DOMOTC 3.0 in Home Assistant
 
 Questa raccolta di blueprint è progettata per semplificare l'integrazione di **termostati CAME** con sensori finestra, in conformità alla normativa **UNI EN 15232-1:2017** sui sistemi di automazione degli edifici (BACS – Building Automation and Control Systems).
 
 ## Contenuto
 
-La directory `blueprints/automation/cameautomations/` contiene tre blueprint:
+La directory `blueprints/automation/bacsautomations/` contiene tre blueprint:
 
 1. **spegni_salva_stato.yaml**
    Spegne il termostato e ne salva lo stato quando si apre una finestra.
@@ -18,13 +18,13 @@ La directory `blueprints/automation/cameautomations/` contiene tre blueprint:
 ## Requisiti
 
 - Home Assistant 2023.5 o successiva
-- Termostati CAME integrati tramite l'integrazione personalizzata `ha_came`
+- Termostati CAME integrati tramite l'integrazione personalizzata `home-sapiens-assistant`
 - Sensori finestra (binari), è possibile utilizzare i sensori finestra delle centrali antifurto Proxinet.
 - `input_select` helper creati per ciascun termostato da controllare
 
 ## Installazione
 
-1. Copia la cartella `cameautomations` in: config/blueprints/automation/
+1. Copia la cartella `bacsautomations` in: config/blueprints/automation/
 
 
 2. Riavvia Home Assistant oppure ricarica i blueprint da:
@@ -41,7 +41,7 @@ La directory `blueprints/automation/cameautomations/` contiene tre blueprint:
 4. Crea nuove automazioni utilizzando i blueprint:
 
 - Vai su **Impostazioni → Automazioni → + Crea automazione → Usa blueprint**.
-- Seleziona uno dei blueprint in `cameautomations`.
+- Seleziona uno dei blueprint in `bacsautomations`.
 - Compila i campi richiesti (sensore finestra, termostato, input_select stato salvato).
 - Salva l’automazione.
 
@@ -56,7 +56,7 @@ Questo sistema contribuisce all’efficienza energetica degli edifici secondo:
 
 Progetto mantenuto da **[Flavio](https://github.com/odoricof)**.
 
-Pull request, segnalazioni e miglioramenti sono benvenuti!
+Segnalazioni e miglioramenti sono benvenuti!
 
 
 
