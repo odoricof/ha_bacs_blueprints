@@ -18,7 +18,7 @@ La directory `blueprints/automation/bacsautomations/` contiene tre blueprint:
 ## Requisiti
 
 - Home Assistant 2023.5 o successiva
-- Termostati CAME integrati tramite l'integrazione personalizzata `home-sapiens-assistant`
+- Termostati CAME integrati tramite l'integrazione personalizzata `Home-Sapiens-Assistant`
 - Sensori finestra (binari), è possibile utilizzare i sensori finestra delle centrali antifurto Proxinet.
 - `input_select` helper creati per ciascun termostato da controllare
 
