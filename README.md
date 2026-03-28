@@ -1,6 +1,6 @@
-# Automazioni di risparmio energetico per dispositivi CAME DOMOTC 3.0 in Home Assistant
+# Automazioni di risparmio energetico per dispositivi domotici in Home Assistant
 
-Questa raccolta di blueprint è progettata per semplificare l'integrazione di **termostati CAME** con sensori finestra, in conformità alla normativa **UNI EN 15232-1:2017** sui sistemi di automazione degli edifici (BACS – Building Automation and Control Systems).
+Questa raccolta di blueprint è progettata per semplificare l'integrazione di termostati con sensori finestra, in conformità alla normativa **UNI EN 15232-1:2017** sui sistemi di automazione degli edifici (BACS – Building Automation and Control Systems).
 
 ## Contenuto
 
@@ -15,12 +15,6 @@ La directory `blueprints/automation/bacsautomations/` contiene tre blueprint:
 3. **blocca_riaccensione.yaml**
    Previene la riaccensione del termostato mentre la finestra è ancora aperta.
 
-## Requisiti
-
-- Home Assistant 2023.5 o successiva
-- Termostati CAME integrati tramite l'integrazione personalizzata `Home-Sapiens-Assistant`
-- Sensori finestra (binari), è possibile utilizzare i sensori finestra delle centrali antifurto Proxinet.
-- `input_select` helper creati per ciascun termostato da controllare
 
 ## Installazione
 
